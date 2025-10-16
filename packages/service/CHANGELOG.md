@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.0.0](https://github.com/peradoennaim/mimir-wallet/compare/service-v2.31.0...service-v3.0.0) (2025-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/peradoennaim/mimir-wallet/issues/198))
+
+### Features
+
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/peradoennaim/mimir-wallet/issues/181)) ([207e1ce](https://github.com/peradoennaim/mimir-wallet/commit/207e1ce6d3d4247c9958a39c87d0f89b6d34df8b))
+* Add cross-chain calldata display component ([#291](https://github.com/peradoennaim/mimir-wallet/issues/291)) ([dd75330](https://github.com/peradoennaim/mimir-wallet/commit/dd75330006ed453ca777dea88a822706dd488ba9))
+* Add dry run API support for transaction simulation ([#207](https://github.com/peradoennaim/mimir-wallet/issues/207)) ([991ef18](https://github.com/peradoennaim/mimir-wallet/commit/991ef18c08e51b455029f8d6c6a3bd5027ba1b53))
+* Add notification center feature ([#282](https://github.com/peradoennaim/mimir-wallet/issues/282)) ([0e874a1](https://github.com/peradoennaim/mimir-wallet/commit/0e874a1989958cb16b161751e276d877e066fa06))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/peradoennaim/mimir-wallet/issues/171)) ([2f31295](https://github.com/peradoennaim/mimir-wallet/commit/2f3129566f79537f7db4554415d448199fca6522))
+* Add remote proxy support ([#236](https://github.com/peradoennaim/mimir-wallet/issues/236)) ([d754a11](https://github.com/peradoennaim/mimir-wallet/commit/d754a11b9df71321795ce9e63e77e67e3ada4eab))
+* add transaction subscription functionality ([#213](https://github.com/peradoennaim/mimir-wallet/issues/213)) ([765af5b](https://github.com/peradoennaim/mimir-wallet/commit/765af5b8774c68b6abc823853dde28651839cfc1))
+* Add zkVerify testnet supported ([#251](https://github.com/peradoennaim/mimir-wallet/issues/251)) ([6fa45b2](https://github.com/peradoennaim/mimir-wallet/commit/6fa45b2b7f22794275f5af0d49d113fb78aa98e8))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/peradoennaim/mimir-wallet/issues/198)) ([aa2d94e](https://github.com/peradoennaim/mimir-wallet/commit/aa2d94ead7770c94861244590aea4dfa22d5a26a))
+* Improve UI display and user experience ([#218](https://github.com/peradoennaim/mimir-wallet/issues/218)) ([ab6629d](https://github.com/peradoennaim/mimir-wallet/commit/ab6629d7e4b13077679b8a3369ad903edb9ead6a))
+* Optimize balance retrieval logic ([#311](https://github.com/peradoennaim/mimir-wallet/issues/311)) ([7ba5b57](https://github.com/peradoennaim/mimir-wallet/commit/7ba5b577f0fd04885940c83e7ed0e02f8717ed28))
+* remove assethub next westend network ([#232](https://github.com/peradoennaim/mimir-wallet/issues/232)) ([c0f0db4](https://github.com/peradoennaim/mimir-wallet/commit/c0f0db417e550ec347c48e670f2e4fffa421b1c1))
+* remove batch restore functionality ([#204](https://github.com/peradoennaim/mimir-wallet/issues/204)) ([a293934](https://github.com/peradoennaim/mimir-wallet/commit/a2939344c80d544ec1a9a0e677af4841e5655f4a))
+* subscribe wallet accounts changed ([#176](https://github.com/peradoennaim/mimir-wallet/issues/176)) ([ffab0bc](https://github.com/peradoennaim/mimir-wallet/commit/ffab0bca0a61353dc510ffbbba6b9e6d7e1078d6))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/peradoennaim/mimir-wallet/issues/261)) ([335c000](https://github.com/peradoennaim/mimir-wallet/commit/335c0001febd35cc14bc2674de6a5b8d13e48671))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/peradoennaim/mimir-wallet/issues/267)) ([3a2a5ae](https://github.com/peradoennaim/mimir-wallet/commit/3a2a5ae4be2df2f20b3a02121032b8e0ccbeea2c))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/service-v2.30.0...service-v2.31.0) (2025-10-08)
 
 

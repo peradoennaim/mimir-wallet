@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.0.0](https://github.com/peradoennaim/mimir-wallet/compare/polkadot-core-v2.31.0...polkadot-core-v3.0.0) (2025-10-16)
+
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/peradoennaim/mimir-wallet/issues/323)) ([df20ece](https://github.com/peradoennaim/mimir-wallet/commit/df20ecef9dde67c901f75bbe340225c1c35200f1))
+* Add astar network support ([#230](https://github.com/peradoennaim/mimir-wallet/issues/230)) ([e943e76](https://github.com/peradoennaim/mimir-wallet/commit/e943e76fd1b5b9c5f730ae8816ca16f1ad0843e2))
+* Add cross-chain calldata display component ([#291](https://github.com/peradoennaim/mimir-wallet/issues/291)) ([dd75330](https://github.com/peradoennaim/mimir-wallet/commit/dd75330006ed453ca777dea88a822706dd488ba9))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/peradoennaim/mimir-wallet/issues/285)) ([a6735cd](https://github.com/peradoennaim/mimir-wallet/commit/a6735cd716323a8d3c74f61dcdc7a4369951525a))
+* Add dry run API support for transaction simulation ([#207](https://github.com/peradoennaim/mimir-wallet/issues/207)) ([991ef18](https://github.com/peradoennaim/mimir-wallet/commit/991ef18c08e51b455029f8d6c6a3bd5027ba1b53))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/peradoennaim/mimir-wallet/issues/309)) ([8d43094](https://github.com/peradoennaim/mimir-wallet/commit/8d43094926d94bb8fd8b2ef7caa4968c9989f63c))
+* Add notification center feature ([#282](https://github.com/peradoennaim/mimir-wallet/issues/282)) ([0e874a1](https://github.com/peradoennaim/mimir-wallet/commit/0e874a1989958cb16b161751e276d877e066fa06))
+* Add PAssetHub network support ([#239](https://github.com/peradoennaim/mimir-wallet/issues/239)) ([e0ca22a](https://github.com/peradoennaim/mimir-wallet/commit/e0ca22ab8b3cffc900f0ca091a9b412d3594f839))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/peradoennaim/mimir-wallet/issues/321)) ([fd8e008](https://github.com/peradoennaim/mimir-wallet/commit/fd8e008b2f3646aaf754bcc385ebd1c12bcbfe8a))
+* Add remote proxy support ([#236](https://github.com/peradoennaim/mimir-wallet/issues/236)) ([d754a11](https://github.com/peradoennaim/mimir-wallet/commit/d754a11b9df71321795ce9e63e77e67e3ada4eab))
+* Add walletconnect in dapp page ([#217](https://github.com/peradoennaim/mimir-wallet/issues/217)) ([ad2b5ea](https://github.com/peradoennaim/mimir-wallet/commit/ad2b5ea4c6ba3c6386b8c8f0dd2712409dc21a6f))
+* Add xcavate network support ([#237](https://github.com/peradoennaim/mimir-wallet/issues/237)) ([630c0c5](https://github.com/peradoennaim/mimir-wallet/commit/630c0c5a26a709b95b1ec647bac53d75a4f775b3))
+* Add zkverify mainnet support ([#312](https://github.com/peradoennaim/mimir-wallet/issues/312)) ([a506b6e](https://github.com/peradoennaim/mimir-wallet/commit/a506b6ead6635a3195148b680cc4195aed2a5651))
+* Add zkVerify testnet supported ([#251](https://github.com/peradoennaim/mimir-wallet/issues/251)) ([6fa45b2](https://github.com/peradoennaim/mimir-wallet/commit/6fa45b2b7f22794275f5af0d49d113fb78aa98e8))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/peradoennaim/mimir-wallet/issues/254)) ([1eda40a](https://github.com/peradoennaim/mimir-wallet/commit/1eda40aec0ef7dcbce78b9a187942310129dda97))
+* Improve UI display and user experience ([#218](https://github.com/peradoennaim/mimir-wallet/issues/218)) ([ab6629d](https://github.com/peradoennaim/mimir-wallet/commit/ab6629d7e4b13077679b8a3369ad903edb9ead6a))
+* Optimize balance retrieval logic ([#311](https://github.com/peradoennaim/mimir-wallet/issues/311)) ([7ba5b57](https://github.com/peradoennaim/mimir-wallet/commit/7ba5b577f0fd04885940c83e7ed0e02f8717ed28))
+* optimize rpc connection and improve network stability ([#193](https://github.com/peradoennaim/mimir-wallet/issues/193)) ([650485a](https://github.com/peradoennaim/mimir-wallet/commit/650485ad3697cce6417a20a13b0314f0e427fe92))
+* remove assethub next westend network ([#232](https://github.com/peradoennaim/mimir-wallet/issues/232)) ([c0f0db4](https://github.com/peradoennaim/mimir-wallet/commit/c0f0db417e550ec347c48e670f2e4fffa421b1c1))
+* subscribe wallet accounts changed ([#176](https://github.com/peradoennaim/mimir-wallet/issues/176)) ([ffab0bc](https://github.com/peradoennaim/mimir-wallet/commit/ffab0bca0a61353dc510ffbbba6b9e6d7e1078d6))
+* Support eth address transfer on westend ([#234](https://github.com/peradoennaim/mimir-wallet/issues/234)) ([7ef56d3](https://github.com/peradoennaim/mimir-wallet/commit/7ef56d3f510062c3f7142b94f1faf0f1049ec9f6))
+* support eth address trasfer on westend assethub ([#224](https://github.com/peradoennaim/mimir-wallet/issues/224)) ([b054b64](https://github.com/peradoennaim/mimir-wallet/commit/b054b64af18d3c56e31e6aaf73c0c7ff2d4b3f57))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/peradoennaim/mimir-wallet/issues/261)) ([335c000](https://github.com/peradoennaim/mimir-wallet/commit/335c0001febd35cc14bc2674de6a5b8d13e48671))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/peradoennaim/mimir-wallet/issues/268)) ([2f80136](https://github.com/peradoennaim/mimir-wallet/commit/2f80136b21ab0e69145d1908c6557dc1069c5132))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/peradoennaim/mimir-wallet/issues/267)) ([3a2a5ae](https://github.com/peradoennaim/mimir-wallet/commit/3a2a5ae4be2df2f20b3a02121032b8e0ccbeea2c))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/peradoennaim/mimir-wallet/issues/247)) ([7fe9f6e](https://github.com/peradoennaim/mimir-wallet/commit/7fe9f6e2a742b7ef96b76597695c3bc336f8b18f))
+
+
+### Bug Fixes
+
+* fix nexu hash calculation in polkadot-core tx module ([#178](https://github.com/peradoennaim/mimir-wallet/issues/178)) ([ba6fa38](https://github.com/peradoennaim/mimir-wallet/commit/ba6fa380492a5c289c52d0a17184ad7f62f1154c))
+* Fix some issues while connect wallet ([#220](https://github.com/peradoennaim/mimir-wallet/issues/220)) ([e07eab7](https://github.com/peradoennaim/mimir-wallet/commit/e07eab77f7eb13511cd8e0a5e07c37e6d6ff9b2e))
+* improve user experience and fix bugs ([#222](https://github.com/peradoennaim/mimir-wallet/issues/222)) ([b91d4cb](https://github.com/peradoennaim/mimir-wallet/commit/b91d4cbfbdbfc143274edd6f928639e0cc3d92a1))
+* optimize balance fetching performance ([#228](https://github.com/peradoennaim/mimir-wallet/issues/228)) ([8d2b1b2](https://github.com/peradoennaim/mimir-wallet/commit/8d2b1b2b32b8936efe4ed08409a98ac4a24d46d8))
+* optimize user experience and fix some bugs ([#226](https://github.com/peradoennaim/mimir-wallet/issues/226)) ([a9418db](https://github.com/peradoennaim/mimir-wallet/commit/a9418dbe6af9444d69fa2783194cc5ab33503caf))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @mimir-wallet/service bumped to 3.0.0
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/polkadot-core-v2.30.0...polkadot-core-v2.31.0) (2025-10-08)
 
 

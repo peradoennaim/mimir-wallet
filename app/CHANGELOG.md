@@ -1,5 +1,111 @@
 # Changelog
 
+## [3.0.0](https://github.com/peradoennaim/mimir-wallet/compare/mimir-wallet-app-v2.31.0...mimir-wallet-app-v3.0.0) (2025-10-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/peradoennaim/mimir-wallet/issues/198))
+
+### Features
+
+* Add Acurast Canary network support ([#323](https://github.com/peradoennaim/mimir-wallet/issues/323)) ([df20ece](https://github.com/peradoennaim/mimir-wallet/commit/df20ecef9dde67c901f75bbe340225c1c35200f1))
+* add ai assistant for mimir ([#319](https://github.com/peradoennaim/mimir-wallet/issues/319)) ([d80d16b](https://github.com/peradoennaim/mimir-wallet/commit/d80d16be9cb3513eaafed5b95ab3b337baa2be5d))
+* Add astar network support ([#230](https://github.com/peradoennaim/mimir-wallet/issues/230)) ([e943e76](https://github.com/peradoennaim/mimir-wallet/commit/e943e76fd1b5b9c5f730ae8816ca16f1ad0843e2))
+* add bounty manager dapp support for paseo chain ([#181](https://github.com/peradoennaim/mimir-wallet/issues/181)) ([207e1ce](https://github.com/peradoennaim/mimir-wallet/commit/207e1ce6d3d4247c9958a39c87d0f89b6d34df8b))
+* Add conviction voting display ([#273](https://github.com/peradoennaim/mimir-wallet/issues/273)) ([0a95d93](https://github.com/peradoennaim/mimir-wallet/commit/0a95d93d4b33ae286743e06d3e9b4338cd59df31))
+* Add cross-chain calldata display component ([#291](https://github.com/peradoennaim/mimir-wallet/issues/291)) ([dd75330](https://github.com/peradoennaim/mimir-wallet/commit/dd75330006ed453ca777dea88a822706dd488ba9))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/peradoennaim/mimir-wallet/issues/285)) ([a6735cd](https://github.com/peradoennaim/mimir-wallet/commit/a6735cd716323a8d3c74f61dcdc7a4369951525a))
+* add delete address book functionality ([#190](https://github.com/peradoennaim/mimir-wallet/issues/190)) ([380ad4f](https://github.com/peradoennaim/mimir-wallet/commit/380ad4fdfb2e1b28f2e44d022097e6ef0a4496a1))
+* Add dry run API support for transaction simulation ([#207](https://github.com/peradoennaim/mimir-wallet/issues/207)) ([991ef18](https://github.com/peradoennaim/mimir-wallet/commit/991ef18c08e51b455029f8d6c6a3bd5027ba1b53))
+* Add ErrorBoundary for submit transaction ([#309](https://github.com/peradoennaim/mimir-wallet/issues/309)) ([8d43094](https://github.com/peradoennaim/mimir-wallet/commit/8d43094926d94bb8fd8b2ef7caa4968c9989f63c))
+* add global account search and refactor UI components ([#167](https://github.com/peradoennaim/mimir-wallet/issues/167)) ([a3fb445](https://github.com/peradoennaim/mimir-wallet/commit/a3fb4454c73c8e431c385454a7dac89bf5eeb4f6))
+* Add group by date for transaction ([#284](https://github.com/peradoennaim/mimir-wallet/issues/284)) ([715b82d](https://github.com/peradoennaim/mimir-wallet/commit/715b82df21bbb420e1334af4d7cb13ce47b024e0))
+* Add multi-transfer app ([#271](https://github.com/peradoennaim/mimir-wallet/issues/271)) ([bec2f17](https://github.com/peradoennaim/mimir-wallet/commit/bec2f17fb8104bee6f70318062d578f38c57a3c2))
+* Add notification center feature ([#282](https://github.com/peradoennaim/mimir-wallet/issues/282)) ([0e874a1](https://github.com/peradoennaim/mimir-wallet/commit/0e874a1989958cb16b161751e276d877e066fa06))
+* add permission check when submit transaction ([#164](https://github.com/peradoennaim/mimir-wallet/issues/164)) ([b76bc02](https://github.com/peradoennaim/mimir-wallet/commit/b76bc02ff67db4984ee1ae1eae4acd3cc5d44450))
+* Add polkassembly app supported ([#265](https://github.com/peradoennaim/mimir-wallet/issues/265)) ([733b174](https://github.com/peradoennaim/mimir-wallet/commit/733b174b2dc3263f046c4e586cd4f49e478d3cff))
+* add posthog integration ([#276](https://github.com/peradoennaim/mimir-wallet/issues/276)) ([096b88d](https://github.com/peradoennaim/mimir-wallet/commit/096b88d711f32f8e696fab52fad506e7fd5e9d48))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/peradoennaim/mimir-wallet/issues/171)) ([2f31295](https://github.com/peradoennaim/mimir-wallet/commit/2f3129566f79537f7db4554415d448199fca6522))
+* Add regoinx dapp support ([50f5441](https://github.com/peradoennaim/mimir-wallet/commit/50f54415cb9a066abd90010f494a743ffae3a6f0))
+* add relay chain auto-dependency for all parachains ([#321](https://github.com/peradoennaim/mimir-wallet/issues/321)) ([fd8e008](https://github.com/peradoennaim/mimir-wallet/commit/fd8e008b2f3646aaf754bcc385ebd1c12bcbfe8a))
+* Add remote proxy support ([#236](https://github.com/peradoennaim/mimir-wallet/issues/236)) ([d754a11](https://github.com/peradoennaim/mimir-wallet/commit/d754a11b9df71321795ce9e63e77e67e3ada4eab))
+* Add sonner to replace react-toastify ([#280](https://github.com/peradoennaim/mimir-wallet/issues/280)) ([4231e02](https://github.com/peradoennaim/mimir-wallet/commit/4231e02f070c591cc0d2496d41f0d7bfd416ae42))
+* add template detail view functionality ([#174](https://github.com/peradoennaim/mimir-wallet/issues/174)) ([b305b09](https://github.com/peradoennaim/mimir-wallet/commit/b305b095a654ecd3ad546065a6f150f4e2d0e336))
+* Add tooltip for favorite dapp items ([#275](https://github.com/peradoennaim/mimir-wallet/issues/275)) ([150499f](https://github.com/peradoennaim/mimir-wallet/commit/150499f2e680a97b24644869aa1f09f5207f05a7))
+* add transaction subscription functionality ([#213](https://github.com/peradoennaim/mimir-wallet/issues/213)) ([765af5b](https://github.com/peradoennaim/mimir-wallet/commit/765af5b8774c68b6abc823853dde28651839cfc1))
+* add visible field to DappOption for display control ([#305](https://github.com/peradoennaim/mimir-wallet/issues/305)) ([062382d](https://github.com/peradoennaim/mimir-wallet/commit/062382d08af2924c7e9f7e621bd664b491646b21))
+* Add walletconnect in dapp page ([#217](https://github.com/peradoennaim/mimir-wallet/issues/217)) ([ad2b5ea](https://github.com/peradoennaim/mimir-wallet/commit/ad2b5ea4c6ba3c6386b8c8f0dd2712409dc21a6f))
+* Add zkverify mainnet support ([#312](https://github.com/peradoennaim/mimir-wallet/issues/312)) ([a506b6e](https://github.com/peradoennaim/mimir-wallet/commit/a506b6ead6635a3195148b680cc4195aed2a5651))
+* Add zkVerify testnet supported ([#251](https://github.com/peradoennaim/mimir-wallet/issues/251)) ([6fa45b2](https://github.com/peradoennaim/mimir-wallet/commit/6fa45b2b7f22794275f5af0d49d113fb78aa98e8))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/peradoennaim/mimir-wallet/issues/215)) ([b1d73a0](https://github.com/peradoennaim/mimir-wallet/commit/b1d73a0cc49355ce06b9e790f4e7dc4271365188))
+* change polkadot cloud staking app informations ([#307](https://github.com/peradoennaim/mimir-wallet/issues/307)) ([48e95ae](https://github.com/peradoennaim/mimir-wallet/commit/48e95ae89daeefd806ddbd1578fe87afd037c6a1))
+* **dapp:** Add bounties app developed by the PAPI team ([#262](https://github.com/peradoennaim/mimir-wallet/issues/262)) ([f25a1ea](https://github.com/peradoennaim/mimir-wallet/commit/f25a1eaeb98e88d7e417079f440db80b6e26b6d8))
+* **dapp:** implement custom dapp management system ([#249](https://github.com/peradoennaim/mimir-wallet/issues/249)) ([0e9ede4](https://github.com/peradoennaim/mimir-wallet/commit/0e9ede4495c78802cc2af80105c034dc7342c59a))
+* distinguish between transactions already added to batch and those not yet added in Restore page to prevent duplicate additions ([#200](https://github.com/peradoennaim/mimir-wallet/issues/200)) ([87a4b3f](https://github.com/peradoennaim/mimir-wallet/commit/87a4b3f9360214137c7c608428e38950c1922a2b))
+* enable restore batch from remote ([#173](https://github.com/peradoennaim/mimir-wallet/issues/173)) ([902d2ae](https://github.com/peradoennaim/mimir-wallet/commit/902d2ae9e97b225753ea3e1729e261f48837ee00))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/peradoennaim/mimir-wallet/issues/254)) ([1eda40a](https://github.com/peradoennaim/mimir-wallet/commit/1eda40aec0ef7dcbce78b9a187942310129dda97))
+* implement AssetHub migration support ([#259](https://github.com/peradoennaim/mimir-wallet/issues/259)) ([be650e4](https://github.com/peradoennaim/mimir-wallet/commit/be650e423c15fa29ffb3affc7c50f9861ea72254))
+* implement omni-chain support with multi-network balances and transactions ([#198](https://github.com/peradoennaim/mimir-wallet/issues/198)) ([aa2d94e](https://github.com/peradoennaim/mimir-wallet/commit/aa2d94ead7770c94861244590aea4dfa22d5a26a))
+* implement success UI for multisig account creation ([#216](https://github.com/peradoennaim/mimir-wallet/issues/216)) ([e6be6ee](https://github.com/peradoennaim/mimir-wallet/commit/e6be6eece8189abdcb8b148dd70d23898c7e11d7))
+* implement WalletConnect integration for seamless dApp connections ([#206](https://github.com/peradoennaim/mimir-wallet/issues/206)) ([2f12c57](https://github.com/peradoennaim/mimir-wallet/commit/2f12c5781d9fc7463bb7f5faf0134873e1b1a0a9))
+* Improve UI display and user experience ([#218](https://github.com/peradoennaim/mimir-wallet/issues/218)) ([ab6629d](https://github.com/peradoennaim/mimir-wallet/commit/ab6629d7e4b13077679b8a3369ad903edb9ead6a))
+* migrate some ui components to shadcn ([#278](https://github.com/peradoennaim/mimir-wallet/issues/278)) ([b29dc36](https://github.com/peradoennaim/mimir-wallet/commit/b29dc36a42f42a7e5ad09dcd941f41e709267b22))
+* Optimize balance retrieval logic ([#311](https://github.com/peradoennaim/mimir-wallet/issues/311)) ([7ba5b57](https://github.com/peradoennaim/mimir-wallet/commit/7ba5b577f0fd04885940c83e7ed0e02f8717ed28))
+* optimize rpc connection and improve network stability ([#193](https://github.com/peradoennaim/mimir-wallet/issues/193)) ([650485a](https://github.com/peradoennaim/mimir-wallet/commit/650485ad3697cce6417a20a13b0314f0e427fe92))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/peradoennaim/mimir-wallet/issues/270)) ([9f14cea](https://github.com/peradoennaim/mimir-wallet/commit/9f14cea9f7e4c37d9c7da8439dd399568d27240d))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/peradoennaim/mimir-wallet/issues/293)) ([8625a87](https://github.com/peradoennaim/mimir-wallet/commit/8625a877590be7a780885013f825550015ca6541))
+* remove assethub next westend network ([#232](https://github.com/peradoennaim/mimir-wallet/issues/232)) ([c0f0db4](https://github.com/peradoennaim/mimir-wallet/commit/c0f0db417e550ec347c48e670f2e4fffa421b1c1))
+* remove batch restore functionality ([#204](https://github.com/peradoennaim/mimir-wallet/issues/204)) ([a293934](https://github.com/peradoennaim/mimir-wallet/commit/a2939344c80d544ec1a9a0e677af4841e5655f4a))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/peradoennaim/mimir-wallet/issues/162)) ([f6b424a](https://github.com/peradoennaim/mimir-wallet/commit/f6b424ace0c30f15086ec5233d5336316fba2de7))
+* subscribe wallet accounts changed ([#176](https://github.com/peradoennaim/mimir-wallet/issues/176)) ([ffab0bc](https://github.com/peradoennaim/mimir-wallet/commit/ffab0bca0a61353dc510ffbbba6b9e6d7e1078d6))
+* Support eth address transfer on westend ([#234](https://github.com/peradoennaim/mimir-wallet/issues/234)) ([7ef56d3](https://github.com/peradoennaim/mimir-wallet/commit/7ef56d3f510062c3f7142b94f1faf0f1049ec9f6))
+* support eth address trasfer on westend assethub ([#224](https://github.com/peradoennaim/mimir-wallet/issues/224)) ([b054b64](https://github.com/peradoennaim/mimir-wallet/commit/b054b64af18d3c56e31e6aaf73c0c7ff2d4b3f57))
+* **transactions:** refactor approval flow with enhanced multisig execution ([#256](https://github.com/peradoennaim/mimir-wallet/issues/256)) ([a3f63d7](https://github.com/peradoennaim/mimir-wallet/commit/a3f63d7365ce0032fba956e2d296e9db481d40e1))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/peradoennaim/mimir-wallet/issues/261)) ([335c000](https://github.com/peradoennaim/mimir-wallet/commit/335c0001febd35cc14bc2674de6a5b8d13e48671))
+* **ui:** refactor add proxy UX with responsive design and step wizard ([#268](https://github.com/peradoennaim/mimir-wallet/issues/268)) ([2f80136](https://github.com/peradoennaim/mimir-wallet/commit/2f80136b21ab0e69145d1908c6557dc1069c5132))
+* **ui:** refactor create multisig UX with responsive design and step wizard ([#267](https://github.com/peradoennaim/mimir-wallet/issues/267)) ([3a2a5ae](https://github.com/peradoennaim/mimir-wallet/commit/3a2a5ae4be2df2f20b3a02121032b8e0ccbeea2c))
+* Update asset price source ([#244](https://github.com/peradoennaim/mimir-wallet/issues/244)) ([ada34d9](https://github.com/peradoennaim/mimir-wallet/commit/ada34d9e036eed0dd5da298f188cb2d80059dafc))
+* Update google analytic config ([#202](https://github.com/peradoennaim/mimir-wallet/issues/202)) ([21ee936](https://github.com/peradoennaim/mimir-wallet/commit/21ee9361ccd0da701aa0ec2c9aa8e1c802f93817))
+* Upgrade polkadotjs to 16.2.2 to support ExtrinsicV5 ([#247](https://github.com/peradoennaim/mimir-wallet/issues/247)) ([7fe9f6e](https://github.com/peradoennaim/mimir-wallet/commit/7fe9f6e2a742b7ef96b76597695c3bc336f8b18f))
+
+
+### Bug Fixes
+
+* Add LiquidityRestrictions error handling for reserve lock checks ([#197](https://github.com/peradoennaim/mimir-wallet/issues/197)) ([47657f3](https://github.com/peradoennaim/mimir-wallet/commit/47657f375661e410305c3aad15586acb6ea339df))
+* filter proposers by network when displaying proposers ([#188](https://github.com/peradoennaim/mimir-wallet/issues/188)) ([7aad0fa](https://github.com/peradoennaim/mimir-wallet/commit/7aad0fa683a1391c192382ddc2a178fcaac5f9e1))
+* fix batch scrollbar issue ([#182](https://github.com/peradoennaim/mimir-wallet/issues/182)) ([61fd0f5](https://github.com/peradoennaim/mimir-wallet/commit/61fd0f5ece452af5c8e9be853f851519e5b2c6ce))
+* fix call proxy error in member set and create pure ([#195](https://github.com/peradoennaim/mimir-wallet/issues/195)) ([c6d4b9e](https://github.com/peradoennaim/mimir-wallet/commit/c6d4b9e2ae48ce1af16b14467eac9c21b4a6beb3))
+* fix create flexible multisig error when creating multisig account ([#191](https://github.com/peradoennaim/mimir-wallet/issues/191)) ([5e2f8b3](https://github.com/peradoennaim/mimir-wallet/commit/5e2f8b326ed325a8adc97a60a3e0e780566424d3))
+* fix dapp page layout style ([#253](https://github.com/peradoennaim/mimir-wallet/issues/253)) ([b174bc4](https://github.com/peradoennaim/mimir-wallet/commit/b174bc485a8a84b05f78bbca61e252c7841a3d2d))
+* fix icon color to use currentColor ([#186](https://github.com/peradoennaim/mimir-wallet/issues/186)) ([2eff4cf](https://github.com/peradoennaim/mimir-wallet/commit/2eff4cfd7c94a93439c226a36bf67b06087632fc))
+* fix regionx dapp tag ([589fd26](https://github.com/peradoennaim/mimir-wallet/commit/589fd26011c15b07f0ad6085f03365da1faa170c))
+* Fix some issues while connect wallet ([#220](https://github.com/peradoennaim/mimir-wallet/issues/220)) ([e07eab7](https://github.com/peradoennaim/mimir-wallet/commit/e07eab77f7eb13511cd8e0a5e07c37e6d6ff9b2e))
+* fix some ui issues ([43392c4](https://github.com/peradoennaim/mimir-wallet/commit/43392c44ef103f5878bde1fd22af13d2759157fc))
+* Fix some UI issues ([#257](https://github.com/peradoennaim/mimir-wallet/issues/257)) ([6ec89ac](https://github.com/peradoennaim/mimir-wallet/commit/6ec89ac5e2ee2e18c1b8a90ba509a56d700f11c6))
+* Fix some ui issues ([#274](https://github.com/peradoennaim/mimir-wallet/issues/274)) ([d5020c6](https://github.com/peradoennaim/mimir-wallet/commit/d5020c6fe2fa10611511cb4b467716fa75b032c7))
+* fix some ui issues ([#286](https://github.com/peradoennaim/mimir-wallet/issues/286)) ([d13d341](https://github.com/peradoennaim/mimir-wallet/commit/d13d341dc55710caa77c61621d86db126de4bfac))
+* fix transfer display issue in batch call ([#184](https://github.com/peradoennaim/mimir-wallet/issues/184)) ([931aafc](https://github.com/peradoennaim/mimir-wallet/commit/931aafc21d20a7de82e21e4562d3ae7ffbb13dea))
+* Fix ui hierarchy issues ([#303](https://github.com/peradoennaim/mimir-wallet/issues/303)) ([015c3a2](https://github.com/peradoennaim/mimir-wallet/commit/015c3a2a902cb66dcf84cea47c273a4b8fa57ceb))
+* Fixed the issue of not being able to open dapp ([b1c453f](https://github.com/peradoennaim/mimir-wallet/commit/b1c453f944905c0c81d05ed17b69a4c0345a4de0))
+* Fixed the problem of empty ui and skeleton appearing at the same time ([#289](https://github.com/peradoennaim/mimir-wallet/issues/289)) ([6378eda](https://github.com/peradoennaim/mimir-wallet/commit/6378eda7214b60ed220b7fd203656294058302f4))
+* improve user experience and fix bugs ([#222](https://github.com/peradoennaim/mimir-wallet/issues/222)) ([b91d4cb](https://github.com/peradoennaim/mimir-wallet/commit/b91d4cbfbdbfc143274edd6f928639e0cc3d92a1))
+* modal style and account menu style ([#170](https://github.com/peradoennaim/mimir-wallet/issues/170)) ([bc1e2e8](https://github.com/peradoennaim/mimir-wallet/commit/bc1e2e8766bc64c492e2c9fd486f1538f42e58bb))
+* optimize balance fetching performance ([#228](https://github.com/peradoennaim/mimir-wallet/issues/228)) ([8d2b1b2](https://github.com/peradoennaim/mimir-wallet/commit/8d2b1b2b32b8936efe4ed08409a98ac4a24d46d8))
+* optimize user experience and fix some bugs ([#226](https://github.com/peradoennaim/mimir-wallet/issues/226)) ([a9418db](https://github.com/peradoennaim/mimir-wallet/commit/a9418dbe6af9444d69fa2783194cc5ab33503caf))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/peradoennaim/mimir-wallet/issues/165)) ([a2c085a](https://github.com/peradoennaim/mimir-wallet/commit/a2c085a543bf9fc5919fda52cd0bc5a692dbb770))
+* resolve transaction error caused by dryRun issue ([#211](https://github.com/peradoennaim/mimir-wallet/issues/211)) ([37b4222](https://github.com/peradoennaim/mimir-wallet/commit/37b4222d8fac6efb1a2808b8bdf27001535c2559))
+* show cancel button for non-pure accounts ([#241](https://github.com/peradoennaim/mimir-wallet/issues/241)) ([714ccef](https://github.com/peradoennaim/mimir-wallet/commit/714ccef174dd422d6437933679442a0aad901614))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @mimir-wallet/polkadot-core bumped to 3.0.0
+    * @mimir-wallet/service bumped to 3.0.0
+    * @mimir-wallet/ui bumped to 3.0.0
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/mimir-wallet-app-v2.30.0...mimir-wallet-app-v2.31.0) (2025-10-08)
 
 

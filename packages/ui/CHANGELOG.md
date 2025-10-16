@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.0.0](https://github.com/peradoennaim/mimir-wallet/compare/ui-v2.31.0...ui-v3.0.0) (2025-10-16)
+
+
+### Features
+
+* add ai assistant for mimir ([#319](https://github.com/peradoennaim/mimir-wallet/issues/319)) ([d80d16b](https://github.com/peradoennaim/mimir-wallet/commit/d80d16be9cb3513eaafed5b95ab3b337baa2be5d))
+* Add cross-chain calldata display component ([#291](https://github.com/peradoennaim/mimir-wallet/issues/291)) ([dd75330](https://github.com/peradoennaim/mimir-wallet/commit/dd75330006ed453ca777dea88a822706dd488ba9))
+* Add cross-chain simulation support with XCM integration ([#285](https://github.com/peradoennaim/mimir-wallet/issues/285)) ([a6735cd](https://github.com/peradoennaim/mimir-wallet/commit/a6735cd716323a8d3c74f61dcdc7a4369951525a))
+* Add dry run API support for transaction simulation ([#207](https://github.com/peradoennaim/mimir-wallet/issues/207)) ([991ef18](https://github.com/peradoennaim/mimir-wallet/commit/991ef18c08e51b455029f8d6c6a3bd5027ba1b53))
+* add global account search and refactor UI components ([#167](https://github.com/peradoennaim/mimir-wallet/issues/167)) ([a3fb445](https://github.com/peradoennaim/mimir-wallet/commit/a3fb4454c73c8e431c385454a7dac89bf5eeb4f6))
+* Add notification center feature ([#282](https://github.com/peradoennaim/mimir-wallet/issues/282)) ([0e874a1](https://github.com/peradoennaim/mimir-wallet/commit/0e874a1989958cb16b161751e276d877e066fa06))
+* add permission check when submit transaction ([#164](https://github.com/peradoennaim/mimir-wallet/issues/164)) ([b76bc02](https://github.com/peradoennaim/mimir-wallet/commit/b76bc02ff67db4984ee1ae1eae4acd3cc5d44450))
+* Add proposer management for multisig members and enable propose transaction submission ([#171](https://github.com/peradoennaim/mimir-wallet/issues/171)) ([2f31295](https://github.com/peradoennaim/mimir-wallet/commit/2f3129566f79537f7db4554415d448199fca6522))
+* Add sonner to replace react-toastify ([#280](https://github.com/peradoennaim/mimir-wallet/issues/280)) ([4231e02](https://github.com/peradoennaim/mimir-wallet/commit/4231e02f070c591cc0d2496d41f0d7bfd416ae42))
+* add template detail view functionality ([#174](https://github.com/peradoennaim/mimir-wallet/issues/174)) ([b305b09](https://github.com/peradoennaim/mimir-wallet/commit/b305b095a654ecd3ad546065a6f150f4e2d0e336))
+* Add zkVerify testnet supported ([#251](https://github.com/peradoennaim/mimir-wallet/issues/251)) ([6fa45b2](https://github.com/peradoennaim/mimir-wallet/commit/6fa45b2b7f22794275f5af0d49d113fb78aa98e8))
+* allow adding lower permission proxies when higher permission proxies exist ([#215](https://github.com/peradoennaim/mimir-wallet/issues/215)) ([b1d73a0](https://github.com/peradoennaim/mimir-wallet/commit/b1d73a0cc49355ce06b9e790f4e7dc4271365188))
+* Fee payment with any sufficient asset on AssetHub ([#254](https://github.com/peradoennaim/mimir-wallet/issues/254)) ([1eda40a](https://github.com/peradoennaim/mimir-wallet/commit/1eda40aec0ef7dcbce78b9a187942310129dda97))
+* implement AssetHub migration support ([#259](https://github.com/peradoennaim/mimir-wallet/issues/259)) ([be650e4](https://github.com/peradoennaim/mimir-wallet/commit/be650e423c15fa29ffb3affc7c50f9861ea72254))
+* Improve UI display and user experience ([#218](https://github.com/peradoennaim/mimir-wallet/issues/218)) ([ab6629d](https://github.com/peradoennaim/mimir-wallet/commit/ab6629d7e4b13077679b8a3369ad903edb9ead6a))
+* migrate some ui components to shadcn ([#278](https://github.com/peradoennaim/mimir-wallet/issues/278)) ([b29dc36](https://github.com/peradoennaim/mimir-wallet/commit/b29dc36a42f42a7e5ad09dcd941f41e709267b22))
+* refactor home UI and add assets,analytic pages ([#270](https://github.com/peradoennaim/mimir-wallet/issues/270)) ([9f14cea](https://github.com/peradoennaim/mimir-wallet/commit/9f14cea9f7e4c37d9c7da8439dd399568d27240d))
+* Refactor sidebar system with modular architecture and ShadCN integration ([#293](https://github.com/peradoennaim/mimir-wallet/issues/293)) ([8625a87](https://github.com/peradoennaim/mimir-wallet/commit/8625a877590be7a780885013f825550015ca6541))
+* remove assethub next westend network ([#232](https://github.com/peradoennaim/mimir-wallet/issues/232)) ([c0f0db4](https://github.com/peradoennaim/mimir-wallet/commit/c0f0db417e550ec347c48e670f2e4fffa421b1c1))
+* **structure:** initialize monorepo with turborepo, and begin migration from MUI to Hero UI ([#162](https://github.com/peradoennaim/mimir-wallet/issues/162)) ([f6b424a](https://github.com/peradoennaim/mimir-wallet/commit/f6b424ace0c30f15086ec5233d5336316fba2de7))
+* **ui:** enhance transaction components and improve user experience ([#261](https://github.com/peradoennaim/mimir-wallet/issues/261)) ([335c000](https://github.com/peradoennaim/mimir-wallet/commit/335c0001febd35cc14bc2674de6a5b8d13e48671))
+
+
+### Bug Fixes
+
+* fix some ui issues ([43392c4](https://github.com/peradoennaim/mimir-wallet/commit/43392c44ef103f5878bde1fd22af13d2759157fc))
+* Fix some UI issues ([#257](https://github.com/peradoennaim/mimir-wallet/issues/257)) ([6ec89ac](https://github.com/peradoennaim/mimir-wallet/commit/6ec89ac5e2ee2e18c1b8a90ba509a56d700f11c6))
+* Remove duplicate dirty data in transaction approval ([#165](https://github.com/peradoennaim/mimir-wallet/issues/165)) ([a2c085a](https://github.com/peradoennaim/mimir-wallet/commit/a2c085a543bf9fc5919fda52cd0bc5a692dbb770))
+
 ## [2.31.0](https://github.com/mimir-labs/mimir-wallet/compare/ui-v2.30.0...ui-v2.31.0) (2025-10-08)
 
 
